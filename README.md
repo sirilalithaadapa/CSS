@@ -12,4 +12,4 @@
 <h2>site</h2>   
 [Site Link](https://github.com/sirilalithaadapa/CSS/blob/main/Cards/index.html)
 
-[List Example](https://vnaazleen.github.io/ajwt/List_Example/)
+[Site Link](https://github.com/sirilalithaadapa/CSS/blob/main/Cards/index.html/)
