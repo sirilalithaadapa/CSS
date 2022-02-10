@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Card Components</title>
+    <script src="https://kit.fontawesome.com/8d362f42de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 id="title">Cards</h1>
+    <div id="main-container">
+        <div id="variant">
+            <select id="vari" name="vari">
+                <option value="basic">Basic</option>
+                <option value="basictext">Basic W/Text over Media</option>
+                <option value="basicheader">Basic W/Header</option>
+                <option value="basicbuttons">Basic W/Only Buttons</option>
+                <option value="basicicons">Basic W/Only Icons</option>
+                <option value="horizontal">Horizontal Image and Text</option>
+            </select>
+        </div>
+        <div id="card">
+            <section id="basic-sec">
+                <h1>Basic</h1>
+                <div id="basic">
+                    <div id="main">
+                        <img src="images/4.jpg" alt="beautiful pic" id="img-basic">
+                        <div id="text">
+                            <h3 id="text-title">High Coast Bridge</h3>
+                            <h4 id="author">by Anders Jildén</h4>
+                            <h4 id="text-cont">High Coast bridge also known as Höga Kusten Bridge is located in
+                                Sweden
+                            </h4>
+                        </div>
+                    </div>
+                    <div id="btns">
+                        <button class="btn">
+                            <p>READ</p>
+                        </button>
+                        <button class="btn">
+                            <p>BOOKMARK</p>
+                        </button>
+                        <button class="btn" id="icons-btn-heart">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="btn" id="icons-btn">
+                            <i class="fas fa-share-alt"></i>
+                        </button>
+                        <button class="btn" id="icons-btn">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- <br> -->
+        <section id="basicmedia-sec">
+            <h1>Basic w/Text over Media</h1>
+            <div id="tom-basic">
+                <div id="main">
+                    <img src="images/4.jpg" alt="beautiful pic" id="img-basic">
+                    <div id="text">
+                        <div id="tom">
+                            <h3 id="tom-text">High Coast Bridge</h3>
+                            <h4 id="tom-author">by Anders Jildén</h4>
+                        </div>
+                        <h4 id="text-cont">High Coast bridge also known as Höga Kusten Bridge is located in
+                            Sweden
+                        </h4>
+                    </div>
+                </div>
+                <div id="btns">
+                    <button class="btn">
+                        <p>READ</p>
+                    </button>
+                    <button class="btn">
+                        <p>BOOKMARK</p>
+                    </button>
+                    <button class="btn" id="icons-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button class="btn" id="icons-btn">
+                        <i class="fas fa-share-alt"></i>
+                    </button>
+                    <button class="btn" id="icons-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="basicheader-sec">
+            <h1>Basic w/Header</h1>
+            <div id="head-basic">
+                <div id="main">
+                    <div id="text">
+                        <h3 id="text-title">High Coast Bridge</h3>
+                        <h4 id="author">by Anders Jildén</h4>
+                    </div>
+                    <img src="images/4.jpg" alt="beautiful pic" id="img-basic">
+                    <div id="text">
+                        <h4 id="text-cont">High Coast bridge also known as Höga Kusten Bridge is located in
+                            Sweden
+                        </h4>
+                    </div>
+                </div>
+                <div id="btns">
+                    <button class="btn">
+                        <p>READ</p>
+                    </button>
+                    <button class="btn">
+                        <p>BOOKMARK</p>
+                    </button>
+                    <button class="btn" id="icons-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button class="btn" id="icons-btn">
+                        <i class="fas fa-share-alt"></i>
+                    </button>
+                    <button class="btn" id="icons-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="basicbutton-sec">
+            <h1>Basic w/Only Buttons</h1>
+                <div id="basic">
+                    <div id="main">
+                        <img src="images/4.jpg" alt="beautiful pic" id="img-basic">
+                        <div id="text">
+                            <h3 id="text-title">High Coast Bridge</h3>
+                            <h4 id="author">by Anders Jildén</h4>
+                            <h4 id="text-cont">High Coast bridge also known as Höga Kusten Bridge is located in
+                                Sweden
+                            </h4>
+                        </div>
+                    </div>
+                    <div id="btns-onbtn">
+                        <button class="btn">
+                            <p>READ</p>
+                        </button>
+                        <button class="btn">
+                            <p>BOOKMARK</p>
+                        </button>
+                    </div>
+                </div>
+        </section>
+        <section id="basicicon-sec">
+            <h1>Basic w/only Icons</h1>
+                <div id="basic">
+                    <div id="main">
+                        <img src="images/4.jpg" alt="beautiful pic" id="img-basic">
+                        <div id="text">
+                            <h3 id="text-title">High Coast Bridge</h3>
+                            <h4 id="author">by Anders Jildén</h4>
+                            <h4 id="text-cont">High Coast bridge also known as Höga Kusten Bridge is located in
+                                Sweden
+                            </h4>
+                        </div>
+                    </div>
+                    <div id="btn-icon">
+                        <button class="btn-ocon" id="icons-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="btn-ocon" id="icons-btn">
+                            <i class="fas fa-share-alt"></i>
+                        </button>
+                        <button class="btn-ocon" id="icons-btn">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+        </section>
+        <section id="hr-img-txt">
+            <h1>Horizontal Image and Text</h1>
+                <div id="basic-hr">
+                    <div id="main-hr">
+                        <img src="images/4.jpg" alt="beautiful pic" id="img-hr">
+                        <div id="text">
+                            <h3 id="text-title">High Coast Bridge</h3>
+                            <h4 id="author">by Anders Jildén</h4>
+                        </div>
+                    </div>
+                    <div id="btns">
+                        <button class="btn">
+                            <p>READ</p>
+                        </button>
+                        <button class="btn">
+                            <p>BOOKMARK</p>
+                        </button>
+                        <button class="btn" id="icons-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="btn" id="icons-btn">
+                            <i class="fas fa-share-alt"></i>
+                        </button>
+                        <button class="btn" id="icons-btn">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
