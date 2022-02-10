@@ -10,4 +10,4 @@
 </h6>
 
 <h2>site</h2>   
-*   [SiteLink](https://github.com/sirilalithaadapa/CSS/blob/main/Cards/index.html/)
+*[SiteLink](https://github.com/sirilalithaadapa/CSS/blob/main/Cards/index.html/)
