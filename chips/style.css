@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(187, 187, 187);
+    /* background-color: rgb(112, 128,144); */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#icon-btn-share, #icon-btn-view, #icon-btn-live {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.chips-cont,
+.drag-chip,
+.stacked-chips {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: azure;
+}
+
+.stacked-chips {
+    display: block;
+    width: 150px;
+    color: white;
+}
+
+.drag-chip:nth-child(3) {
+    background-color: rgb(252, 224, 172);
+}
+
+.drag-chip:nth-child(4) {
+    background-color: rgb(206, 90, 105);
+}
+
+.drag-chip:nth-child(5) {
+    background-color: rgb(153, 72, 88);
+}
+
+.stacked-chips:nth-child(1) {
+    background-color: rgb(236, 158, 14);
+}
+
+.stacked-chips:nth-child(2) {
+    background-color: rgb(206, 90, 105);
+}
+
+.stacked-chips:nth-child(3) {
+    background-color: rgb(153, 72, 88);
+}
+
+.stacked-chips:nth-child(4) {
+    background-color: rgb(122, 38, 55);
+}
+
+.cross-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    border: 1px solid black;
+    max-width: 600px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.section-name {
+    padding-left: 10px;
+}
+
+.section-icons {
+    margin-right: 20px;
+}
+
+#auto-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 150px; */
+    /* align-self: initial; */
+    /* width: 40%; */
+    /* height: 50px; */
+    /* margin: 0px 25px 0px; */
+    /* padding: 5px; */
+    border: 0px;
+    /* used outline none to make the input field border invisible while in focus */
+    outline: none;
+    background-color: rgb(187, 187, 187);
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+
+.input-txt {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+#output,
+#output-form {
+    display: inline-block;
+}
+
+#disable-btn,
+#enable-btn {
+    padding: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#para {
+
+    margin-bottom: 10px;
+}
+
+
